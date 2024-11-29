@@ -1,0 +1,36 @@
+.home-container {
+    text-align: center;
+    padding: 32px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    margin: 32px auto;
+}
+
+.home-title {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 24px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 16px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
